@@ -1,0 +1,32 @@
+@import './scss/mixin';
+@import './scss/fonts';
+@import './scss/variables';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  position: relative;
+}
+
+root, .page {
+  width: 100%;
+  min-height: 100vh;
+  padding: 7rem 4vw 2em 4vw;
+}
+
+body {
+  overflow-x: hidden;
+  width: 100vw;
+  min-height: 100vh;
+  font-family: $main-font;
+  // -> LIGHT MODE
+  background-color: $sand;
+  color: $light-black;
+  // ->DARK MODE --> TODO
+  //background-color: $light-black;
+  //color: $white;
+}
